@@ -1,0 +1,63 @@
+@media (min-width: 1024px) and (max-width:1440px){
+  body{
+    width: 1024px;
+  }
+ 
+  header .mainTitle{
+    width: 100%;
+    height: 79px;
+    height: 115px;
+    margin-bottom: 30px;
+  }
+
+  .hebergements-and-populaires{
+    max-width: 300px;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .hebergements{
+    width: 924px;
+    margin-left: -35px;
+    margin-top: -110px;
+  }
+
+  .hebergements{
+    flex-direction: column;
+    width: 920px;
+    margin-left: -35px;
+  }
+
+.populaires{
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+  margin-left: -35px;
+  margin-top: 40px;
+}
+
+.populaires-cards{
+  display: flex;
+  flex-direction: row;
+  margin-left: -20px;
+}
+
+.card{
+  width: 270px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card-Activites{
+  width:  193.5px;
+  height: 270px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.card-Activites img{
+  height: 193px;
+  width: 200px;
+}
+}
