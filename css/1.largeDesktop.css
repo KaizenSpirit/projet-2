@@ -1,5 +1,4 @@
 /****** General ***********/
-
 html{
   background-color: white;
   }
@@ -16,8 +15,6 @@ html{
   
   body {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: center;
     margin: 0;
     max-width: 1440px;
     margin: auto;
@@ -28,7 +25,6 @@ html{
     max-height: 1889.02;
     padding: 0 50px;
     box-sizing: border-box;
-    border: 1px solid black;
   }
   
   a {
@@ -41,9 +37,6 @@ html{
     font-size: 22px;
   }
   
-
-
-      
   /****** header ***********/
   header{
     display: flex;
@@ -62,14 +55,12 @@ html{
   margin-left: -25px;
   }
   
-  
   header nav ul li{
     list-style: none;
     display: inline-block;
     height: 19px;
     top: 16px;
   }
-  
   
   header nav{
     width: 294px;
@@ -101,7 +92,6 @@ html{
     margin-left: 40px;
   } 
   
-  
   /****** headlines ***********/
   .infos{
     width: 1340px;
@@ -113,6 +103,7 @@ html{
   .infos .loupe{
     display: none;
   }
+
   .titleHolliday h1{
   width: 1340px;
   height: 26px;
@@ -123,6 +114,7 @@ html{
   color: black;
   margin-top: 0px;
   }
+
   .titleHolliday h2{
     width: 1340px;
     height: 19px;
@@ -141,6 +133,7 @@ html{
     margin-top:34px;
     margin-bottom:40px;
   }
+
   .search .fa-solid{
     display: flex;
     justify-content: center;
@@ -180,6 +173,7 @@ html{
     border-top-right-radius:15px;
     border-bottom-right-radius:15px;
   }
+
   input:focus::placeholder {
     color: transparent;
   }
@@ -187,10 +181,12 @@ html{
   .search button:hover{
     cursor: pointer;
   }
+
   .categories{
     display: flex;
     flex-direction: row;
   }
+
   .categories .isolationCatego{
     display: flex;
     flex-direction: row;
@@ -285,17 +281,16 @@ html{
     color: var(--main-bg-color)
   }
   
-  
-  
-  
   /****** Hebergements ***********/
   .hebergements {
     width: 65%;
     height: 660px;
   }
+
   .hebergements-plus{
     margin-top: 35px;
   }
+
   .section-title{
     margin-bottom: 30px;
   }
@@ -321,50 +316,59 @@ html{
   .cardMain-title {
     font-size: 16px;
   }
+
   .lineOne{
     display: flex;
   }
+
   #first_card{
     margin-right: 13px;
   }
+
   #second_card{
     margin-right: 13px;
     margin-left: 13px;
   }
+
   #third_card{
     margin-left: 13px;
     margin-right: 13px;
   }
-  
+
   .lineTwo{
     display: flex;
     margin-top: 38px;
   }
+
   #fourth_card{
     margin-right: 13px;
   }
+
   #fifth_card{
     margin-right: 13px;
     margin-left: 13px;
   }
+
   #sixth_card{
     margin-left: 13px;
     margin-right: 13px;
   }
   
-  
   /****** Populaires ***********/
   .populaires {
     width: 32%;
   }
+
   .card img {
     object-fit: cover;
   }
+
   .populaires-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .populaires-title i{
     margin-top: -20px;
   }
@@ -372,6 +376,7 @@ html{
   .populaires-cards{
     margin-top: -30px;
   }
+
   .populaires-cards .card {
     display: flex;
     margin-top: 33px;
@@ -406,19 +411,18 @@ html{
     margin-bottom: 5px;
   }
   
-  
-  
-  
   /****** Activites ***********/
   .activites-marseille{
     margin-top: 35px;
   }
+
   .activites-marseille .section-title{
     margin-top: 30px;
     margin-left:30px;
     font-size: 22px;
     font-weight: 700;
   }
+
   .activites{
     display: flex;
     flex-direction: row;
@@ -435,8 +439,8 @@ html{
   margin: 10px;
   border-radius: 20px;
   box-shadow: 0 8px 6px -6px #D9D9D9;   
-  
   }
+  
   .card-Activites img{
     height: 380px;
     width: 297px;
@@ -451,9 +455,6 @@ html{
   text-align: left;
   margin-left: 20px;
   }
-  
-  
-  
   
   /****** Footer ***********/
   footer{

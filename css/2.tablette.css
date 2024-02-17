@@ -1,18 +1,22 @@
 
 @media (max-width: 1024px) {
+  /****** General ***********/
   body{
     width: 100%;
   }
  
   .main-container {
     width: 100%;
-   margin-left: -50px;
   }
+
+    /****** header ***********/
   header{
     width: 100%;
     height: 79px;
     margin-bottom: 30px;
   }
+
+   /****** headlines ***********/
   .categories{
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@
   input:focus::placeholder {
     color: transparent;
   }
+
   .categories .isolationCatego{
     display: flex;
     flex-direction: row;
@@ -30,6 +35,8 @@
     padding: 0 -10px;
     width: 668px;
   }
+
+   /****** Hebergements And Populaires ***********/
   .categories .round{
     width:  150px;
     }
@@ -53,6 +60,7 @@
     margin-left: -5px;
   }
 
+  /****** Populaires ***********/
 .populaires{
   width: 91vw;
   margin-left: -35px;
@@ -70,6 +78,8 @@
   width: 25vw;
   margin-left: 10px;
 }
+
+  /****** Activites ***********/
 
 .card-Activites{
   width:  20vw;
