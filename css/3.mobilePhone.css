@@ -13,13 +13,16 @@ main{
 /****** header ***********/
 
 header {
+  border-bottom: 1px solid #DEEBFF;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 115px;
-  margin-bottom: -10px;
+  margin-left: -80px;
+  margin-bottom: 40px;
   justify-content: center;
+  padding-left:35px
 }
 
 header img{
@@ -35,7 +38,7 @@ header nav{
   width: 375px;
   height: 36px;
   padding: 15px;
-  margin-left: -30px;
+  margin-left: -60px;
 
 }
 .border-bottom{
@@ -45,6 +48,9 @@ header nav{
   margin-bottom: 50px;
   padding-left: 0px;
   padding-right: 0px;
+}
+header ul {
+  width: 900px;
 }
 
 header #button_hebergement{
@@ -56,24 +62,31 @@ header #button_hebergement{
   text-align: center;
   border-top: none;
   padding-top: 12px;
-  padding-bottom: 15px;
-  padding-left: 30px;
+  padding-bottom: 27px;
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-right: 10px;
 }
 
 header #button_activites{
-  width: 63px;
+  width: 375px;
   left: 181px;
   font-family: 'Raleway';
   color: #000000;
   font-weight: 400;
   line-height: 18.78px;
   text-align: center;
-  margin-left: 90px;
+  margin-left: -10px;
+  padding-left: 30px;
+  padding-bottom: 27px;
+  padding-top: 12px;
+  padding-right: 120px;
 } 
-
-.border-bottom{
-  width: 130vw;
-  margin-left: -90px;
+header #button_activites:hover{
+ border-bottom: 3px solid #0065FC;
+}
+header #button_hebergement:hover{
+  border-bottom: 3px solid #0065FC;
 }
 
    /****** headlines ***********/
@@ -100,12 +113,14 @@ header #button_activites{
 }
 .headline h1{
   max-width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   margin-left: -10px;
 }
       
 .headline h2{
+  max-width: 100%;
   margin-left: -10px;
+  margin-top: 40px;
 }
 
 .infos{
@@ -190,10 +205,10 @@ input:focus::placeholder {
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires{
   width: 150%;
-  margin-top: 200px;
+  margin-top: 250px;
   display: flex;
   flex-direction: column-reverse;
-  margin-left: -60px;
+  margin-left: -50px;
 }
   
 .populaires-cards{
@@ -238,7 +253,7 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  margin-left: -25px;
+  margin-left: -45px;
   background-color: none;
 }
   

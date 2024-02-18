@@ -93,3 +93,12 @@
   width: 200px;
 }
 }
+
+@media (min-width:768px) {
+  header #button_activites:hover{
+    border-top: 3px solid #0065FC;
+   }
+   header #button_hebergement:hover{
+     border-top: 3px solid #0065FC;
+   }
+}
