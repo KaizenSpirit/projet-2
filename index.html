@@ -11,12 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/1.largeDesktop.css">    
-     <link rel="stylesheet" href="./css/2.tablette.css">   
-   <link rel="stylesheet" href="./css/3.mobilePhone.css">   
+    <link rel="stylesheet" href="./css/largeDesktop.css">    
+     <link rel="stylesheet" href="./css/tablette.css">   
+   <link rel="stylesheet" href="./css/mobilePhone.css">   
 </head>
 <body>              
-    <div class="main-container">
         <header>
                 <a href="#"><img src="./images/logo/Booki.png" alt="Logo du site Booki"></a>
                 <nav>
@@ -43,14 +42,16 @@
                 <div class="categories">
                     <h2>Filtres</h2>
                     <div class="isolationCatego">
-                        <div class="cats-round">
-                        <a class="round"><i class="fa-solid fa-money-bill-wave"></i>Economique</a>
-                        <a class="round"><i class="fa-solid fa-person"></i>Familiale</a>
+                        <div id="ecoFam" class="cats-round">
+                            <button id="ecoFam1" class="round"><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
+                            <button id="ecoFam2" class="round"><i class="fa-solid fa-person"></i>Familiale</button>
+                        </div>
+                        <div id="remPep" class="cats-round">
+                            <button id="romPep1" class="round"><i class="fa-solid fa-heart"></i>Romantique</button>
+                            <button id="romPep2" class="round"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+                        </div>
                     </div>
-                    <div class="cats-round">
-                        <a class="round"><i class="fa-solid fa-heart"></i>Romantique</a>
-                        <a class="round"><i class="fa-solid fa-fire"></i>Nos pépites</a>
-                    </div> 
+
                     </div>
                     
                 </div>
@@ -259,44 +260,53 @@
                 <div class="activites">
                     <a href="#">
                         <article class="card-Activites">
-                            <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <div class="cardActivites-content">
-                                <div class="cardActivites-txt">
-                                    <h3 class="cardActivites-title">Vieux Port</h3>
-                                </div>
-                            </div>
+                            <figure>
+                                <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <figcaption class="cardActivites-content">
+                                        <div class="cardActivites-txt">
+                                            <h3 class="cardActivites-title">Vieux Port</h3>
+                                        </div>
+                                </figcaption>
+                            </figure>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-Activites">
-                            <img src="./images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <div class="cardActivites-content">
-                                <div class="cardActivites-txt">
-                                    <h3 class="cardActivites-title">Fort de Pomègues</h3>
-                                </div>
-                            </div>
+                            <figure>
+                                <img src="./images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <figcaption class="cardActivites-content">
+                                        <div class="cardActivites-txt">
+                                            <h3 class="cardActivites-title">Fort de Pomègues</h3>
+                                        </div>
+                                </figcaption>
+                            </figure>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-Activites">
-                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <div class="cardActivites-content">
-                                <div class="cardActivites-txt">
-                                    <h3 class="cardActivites-title">Par national des Calanques</h3>
-                                </div>
-                            </div>
+                            <figure>
+                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <figcaption class="cardActivites-content">
+                                        <div class="cardActivites-txt">
+                                            <h3 class="cardActivites-title">Par national des Calanques</h3>
+                                        </div>
+                                </figcaption>
+                            </figure>
                         </article>
                     </a>
                     <a href="#">
                         <article class="card-Activites">
-                            <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <div class="cardActivites-content">
-                                <div class="cardActivites-txt">
-                                    <h3 class="cardActivites-title">Notre-Dame-de-la-Garde</h3>
-                                </div>
-                            </div>
+                            <figure>
+                                <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <figcaption class="cardActivites-content">
+                                        <div class="cardActivites-txt">
+                                            <h3 class="cardActivites-title">Notre-Dame-de-la-Garde</h3>
+                                        </div>
+                                </figcaption>
+                            </figure>
                         </article>
                     </a>
+                    
                 </div>
             </section>  
         </main>
@@ -318,6 +328,5 @@
                 <a>Nous contacter</a>
             </div>
         </footer>
-    </div>
 </body>
 </html>
