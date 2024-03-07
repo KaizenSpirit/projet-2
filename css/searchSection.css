@@ -1,379 +1,160 @@
   /*-------------------------------------------------------------------
   -----------------------SEARCH SECTION DESKTOP-------------------------                                  
   ---------------------------------------------------------------------*/
-  .infos{
-    width: 1340px;
+  .infos {
     height: 281px;
-    gap: 35px;
-    margin-top: 38px;
   }
-  
-  .infos .loupe{
+
+  .titles {
+    height: 53px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .infos .loupe {
     display: none;
   }
 
-  .titleHolliday h1{
-  width: 1340px;
-  height: 26px;
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 25.83px;
-  color: black;
-  margin-top: 0px;
-  }
-
-  .titleHolliday h2{
-    width: 1340px;
-    height: 19px;
-    font-family: 'Raleway';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-    margin-top: -10px;
-  }  
-  
-  .search{
+  .search {
     display: flex;
-    margin-top:34px;
-    margin-bottom:40px;
+    height: 49px;
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 
-  .search .fa-solid{
+  .search .fa-solid {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
-    height: 49px;
     border: 1px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     font-size: 19px;
     color: black;
   }
-  
-  .search input{
-    width: 227px;
+
+  .search input {
+    width: 195px;
     height: 49px;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21.13px;
-    letter-spacing: 0em;
     text-align: center;
     border: 1px solid #F2F2F2;
   }
 
-  .search button{
+  .search button {
     width: 132px;
-    height: 49px;
     background-color: #0065FC;
     color: white;
-    height: 49px;
     padding: 15px, 16px, 15px, 16px;
     border: 1px;
-    gap: 10px;
     font-size: 18px;
     border: 1px solid black;
-    border-top-right-radius:15px;
-    border-bottom-right-radius:15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
-input::placeholder{
-  color: black;
-}
+
+  input::placeholder {
+    color: black;
+  }
+
   input:focus::placeholder {
     color: transparent;
   }
-  
-  .search button:hover{
+
+  .search button:hover {
     cursor: pointer;
   }
 
-  .categories{
+  .categories {
     display: flex;
-    flex-direction: row;
-  }
- .categories h2{
-  font-size: 18px;
-  margin-left: -15px;
- }
-  .round:focus{
-    background-color: #DEEBFF;
-  }
-
-  .categories .isolationCatego{
-    display: flex;
-    flex-direction: row;
-    margin-top: -10px;
-  }
-  
-  .categories .cats-round{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .categories .round{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width:  173px;
-  height:  50px;
-  padding: 4px, 19px, 4px, 19px;
-  border-radius: 25px;
-  border: 2px solid #D9D9D9;
-  gap: 10px;
-  margin: 10px;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 19.96px;
-  background-color: white;
-  }
-  
-  .round:hover{
-  background-color: #DEEBFF;
-  cursor: pointer;
-  }
-  
-  
-  .categories .fa-solid{
-    width: 22px;
-    height: 16.26px;
-    top: 2.87px;
-  }
-  
-  .categories h2{
-    margin-left: 10px;
-  }
-  .infos_logement{
-    display: flex;
-    flex-flow: row;
-    margin-top: 30px;
     margin-bottom: 30px;
   }
-  
-  .infos_logement .fa-solid {
-    width: 29px;
-    height: 21px;
-    border: 1px solid  #D9D9D9;
+
+  .categories p {
+    margin: auto 0;
+    font-weight: 700;
+  }
+
+  .categories-trie {
+    display: flex;
+  }
+
+  .categories .round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 2;
+    width: 173px;
+    height: 50px;
+    padding: 4px, 19px, 4px, 19px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    gap: 10px;
+    margin: 0 10px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 19.96px;
+    background-color: white;
+  }
+
+  .categories .round .fa-solid {
+    font-size: 22px;
+  }
+
+  .round:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+  }
+
+
+  .infos-logement {
+    display: flex;
+    height: 19px;
+    gap: 10px;
+  }
+
+  .infos-logement .fa-solid {
+    width: 24px;
+    height: 17px;
+    padding-top: 4px;
+    border: 1px solid #D9D9D9;
     border-radius: 50%;
     text-align: center;
-    font-size: 14px;
-    padding-top: 5px;
-    margin-right: 15px;
-    margin-top: 10px;
-  }
-  
-  .infos_logement h3{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 16px;
+    margin: auto 0px;
+    font-weight: 700;
+    font-size: 10px;
   }
 
 
-  /*-------------------------------------------------------------------
-  -----------------------SEARCH SECTION TABLET-------------------------                                  
-  ---------------------------------------------------------------------*/
-  @media (max-width: 1024px) {
-  .categories{
-    display: flex;
-    flex-direction: column;
-    margin-top: -20px;
+
+
+
+  @media screen and (max-width:1024px) {
+    .categories {
+      height: 91px;
+      width: 691px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .categories .sort-subtitles {
+      margin: 0px;
+    }
+
+    .categories-trie {
+      padding: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 1vw;
+    }
+
+    .categories-trie .round {
+      width: 18vw;
+      font-size: 16px;
+      margin: 0px;
+    }
+
   }
-
-  input:focus::placeholder {
-    color: transparent;
-  }
-
-  .categories .isolationCatego{
-    display: flex;
-    flex-direction: row;
-    margin-top: -10px;
-    margin-left: -10px;
-    padding: 0 -10px;
-    width: 668px;
-  }
- .categories .round{
-  background-color: white !important;
-
- }
-}
-
-  /*-------------------------------------------------------------------
-  -----------------------SEARCH SECTION MOBILE PHONE---------------------                                  
-  ---------------------------------------------------------------------*/
-  @media (max-width: 767.98px) {
-  .categories .isolationCatego .cats-round{
-    display: flex;
-    flex-direction: row;
-}
-
-.titleHolliday{
-  margin: 0px;
-  max-width: 100%;
-}
-.headline{
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  margin-left: -10px;
-}
-.headline h1{
-  max-width: 80vw;
-  margin-bottom: 10px;
-  margin-left: -10px;
-}
-.headline h2{
-  max-width: 80vw;
-  margin-left: -10px;
-  margin-top: 40px;
-  font-size: 1rem;
-}
-.infos{
-  width: 100%;
-  height: 281px;
-  margin-top: 35px;
-  margin-left: -30px;
-}
-
-.infos{
-  margin-top: -10px;
-}
-
-.search button{
-  width:  50px;
-  height: 50px;
-  left: 286px;
-  padding: 15px, 16px, 15px, 16px;
-  border-radius: 15px;
-  border: 1px;
-}
-
-.search input{
-  width: 65vw;
-        
-}
-.infos .text{
-  display: none;
-}
-
-.search .fa-solid{
-  min-width: 50px;
-}
-.search .text {
-      display: hidden; /* Masquer le texte */
-}
-.search button{
-    background-color: transparent;
-}
-.search .loupe {
-      display: inline-block; /* Afficher la loupe */
-}
-
-.search .loupe .fa-solid{
-    background-color: #0065FC;
-    border-radius: 15px;
-    color: white;
-    margin-left: -40px;
-}
-
-input:focus::placeholder {
-  color: transparent;
-}
-
-.round:focus{
-  background-color: #DEEBFF;
-}
-
-.round:hover{
-  background-color: #DEEBFF;
-  cursor: pointer;
-  }
-
-.categories{
-  display: flex;
-  flex-direction: column;
-  }
-.categories .isolationCatego{
-  display: flex;
-  flex-direction: column;
-  margin-left: -25px;
-}
-.categories .cats-round{
-  display: flex;
-  margin: 10px;
-  width: 34vw;
-}
-
-.isolationCatego #ecoFam1{
-  min-width: 40vw;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 10px;
-  font-size:14px;
-}
-
-.isolationCatego #ecoFam2{
-  min-width: 40vw;
-  padding-left: -50px;
-  font-size:14px;
-}
-
-.isolationCatego #romPep1{
-  min-width: 40vw;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 10px;  
-  margin-left:-10px;
-  margin-top: -10px;
-  font-size:14px;
-}
-
-.isolationCatego #romPep2{
-  min-width: 40vw;
-  padding-left: 15px;
-  padding-right: 10px;
-  margin-right: 10px;  
-  margin-top: -10px;
-  font-size:14px;
-}
-
-.isolationCatego .remPep{
-  margin-right: -15px;
-}
-
-.infos_logement{
-    max-width: 100%;
-}
-#ecoFam{
-  margin-right: 30px;
-  margin-left: -12px;
-}
-#romPep{
-  margin-right: 10px;
-  margin-left: 0px;
-}
-.cats-round{
-    margin-left: -20px;
-}
-
-.infos_logement .fa-solid {
-  width: 29px;
-  height: 21px;
-  border: 1px solid  #D9D9D9;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 14px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-right: 15px;
-}
-
-.infos_logement {
-  margin-top: 0px;
-  max-width: 110vw;
-}
-}
