@@ -1,0 +1,122 @@
+  /*-------------------------------------------------------------------
+  -----------------------ACTIVITIES SECTION DESKTOP---------------------                                  
+  ---------------------------------------------------------------------*/
+
+  .activites-marseille{
+    margin-top: 35px;
+  }
+
+  .activites-marseille .section-title{
+    margin-top: 30px;
+    margin-left:30px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .activites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  
+  .card-Activites figure{
+  max-width: 20vw;
+  height: 439px;
+  border-radius: 20px, 20px, 0px, 0px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0 8px 6px -6px #D9D9D9;  
+  }
+  
+  .card-Activites img{
+    height: 380px;
+    width: 297px;
+    object-fit: cover;
+  }
+  
+  .activites h3{
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+  }
+
+
+
+
+    /*-------------------------------------------------------------------
+  -----------------------ACTIVITIES SECTION TABLET-----------------------                                  
+  ---------------------------------------------------------------------*/
+  @media (max-width:1440px){
+    .card-Activites{
+        max-width: 20vw;
+        }
+    }
+  
+  @media (max-width: 1024px) {
+  .card-Activites figure{
+    width:  20vw;
+    height: 270px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .card-Activites img{
+    height: 193px;
+    width: 200px;
+  }
+
+  }
+
+    /*-------------------------------------------------------------------
+  -----------------------ACTIVITIES SECTION MOBILE PHONE-----------------                                  
+  ---------------------------------------------------------------------*/
+  @media (max-width: 767.98px) {
+  .activites-marseille{
+    margin-top: 970px;
+    margin-left: -28px;
+  }
+  
+  .activites-marseille .activites{
+    display: flex;
+    flex-direction: column;
+  }
+  .activites a .card-Activites figure{
+    width: 80vw;
+    height: 200px;
+    border-radius: 20px, 20px, 0px, 0px;
+    overflow: hidden;
+    margin: 10px 30px 10px -30px ;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px #D9D9D9;   
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    margin-left: 30px;
+  }
+  
+  .activites{
+    margin-left: -48px;
+  }
+  
+  .card-Activites figure{
+    max-width: 110vw;
+    height: 439px;
+    border-radius: 20px, 20px, 0px, 0px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px #D9D9D9; 
+    }
+  
+  .card-Activites figure img{
+    width: 80vw;
+    height: 141px;
+    content: fill;
+  }
+
+}

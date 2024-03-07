@@ -1,0 +1,222 @@
+
+  /*-------------------------------------------------------------------
+  -----------------------HEADER DESKTOP---------------------------------                                   
+  ---------------------------------------------------------------------*/
+  header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    position: relative;
+  }
+  
+  header img{
+  width: 61.09px;
+  height: 19px;
+  top: 30px;
+  left: 50px;
+  padding: 30px;
+  margin-left: -25px;
+  }
+  
+  header nav ul li{
+    list-style: none;
+    display: inline-block;
+    height: 19px;
+    top: 16px;
+  }
+  
+  header nav{
+    width: 294px;
+    height: 35px;
+    left: 1096px;
+    padding: 0px, 25px, 0px, 25px;
+    gap: 68px;
+  }
+  
+  header #button_hebergement{
+    width: 113px;
+    height: 2px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: -40px;
+  }
+  
+  header #button_activites{
+    width: 63px;
+    left: 181px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 12px;
+  } 
+
+
+
+  /*-------------------------------------------------------------------
+  -----------------------HEADER TABLET---------------------------------                                   
+  ---------------------------------------------------------------------*/
+
+  @media (max-width: 1024px) {
+    header{
+      width: 100%;
+      height: 79px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+
+  @media (min-width:768px) {
+     
+    header #button_hebergement::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 110px;
+      height: 2px;
+      background-color: var(--main-color);
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+    }
+    
+    header #button_hebergement:hover::before {
+      visibility: visible;
+      transition: all 0.3s ease-in-out;
+      transform: scaleX(1);
+    }
+    
+    header #button_activites::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 65px;
+      height: 2px;
+      height: 2px;
+      background-color: var(--main-color);
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out 0s;
+    }
+    
+    header #button_activites:hover::before {
+      visibility: visible;
+      transition: all 0.3s ease-in-out;
+      transform: scaleX(1);
+    } 
+      }
+  /*-------------------------------------------------------------------
+  -----------------------HEADER MOBILE PHONE----------------------------                                   
+  ---------------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+  
+header {
+  border-bottom: 1px solid #DEEBFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 115px;
+  margin-left: -60px;
+  margin-bottom: 40px;
+  justify-content: center;
+  padding-left:35px
+}
+
+header img{
+  width: 61.09px;
+  height: 19px;
+  padding: 25px;
+  margin-right: 20px;  
+  margin-bottom: -25px;
+  margin-top: 10px;
+  }
+
+header nav{
+  width: 100%;
+  height: 36px;
+  padding: 15px;
+  margin-top: -15px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+header #button_hebergement{
+  font-size: 16px;
+  width: 375px;
+  height: 2px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  border-top: none;
+  padding-top: 12px;
+  padding-bottom: 27px;
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-right: 10px;
+}
+
+header #button_activites{
+  font-size: 16px;
+  width: 375px;
+  left: 181px;
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  margin-left: -10px;
+  padding-left: 30px;
+  padding-bottom: 27px;
+  padding-top: 12px;
+  padding-right: 85px;
+} 
+header #button_hebergement::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 50%;
+  height: 2px;
+  background-color: var(--main-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header #button_hebergement:hover::before {
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+  transform: scaleX(1);
+}
+
+header #button_activites::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  height: 2px;
+  background-color: var(--main-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header #button_activites:hover::before {
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+  transform: scaleX(1);
+} 
+  }
+

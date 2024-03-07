@@ -1,0 +1,57 @@
+  /*-------------------------------------------------------------------
+  -----------------------FOOTER DESKTOP---------------------------------                                   
+  ---------------------------------------------------------------------*/
+
+  footer{
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    margin-top: 50px;
+  }
+  
+  .foot{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 446.67px;
+    height: 163px;
+    padding: 20px;
+    gap: 15px;
+  
+  }
+
+    /*-------------------------------------------------------------------
+  -----------------------FOOTER TABLET ---------------------------------                                   
+  ---------------------------------------------------------------------*/
+
+
+
+
+    /*-------------------------------------------------------------------
+  -----------------------FOOTER MOBILE PHONE-----------------------------                                   
+  ---------------------------------------------------------------------*/
+
+  @media (max-width: 767.98px) {
+  footer{
+    display: flex;
+    flex-direction: column; 
+    height: 461px;
+    padding: 20px;
+    width: 95vw;
+    margin-left: -75px;
+  }
+  footer h3{
+    margin: 0px;
+  }
+  
+  .foot{
+      height: 100px;
+  }
+  
+  #assistance{
+      margin-top: -20px;
+  }
+  
+  }
+  
