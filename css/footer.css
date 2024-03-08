@@ -19,7 +19,11 @@ footer ul li {
   margin-top: 10px;
 }
 
-footer ul li h3 {
+footer ul li a {
+  cursor: pointer;
+}
+
+footer ul li h4 {
   font-size: 18px;
   margin: 10px 0 0;
 }
