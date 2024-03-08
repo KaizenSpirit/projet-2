@@ -3,13 +3,13 @@
   ---------------------------------------------------------------------*/
 
 
-    .activites-marseille {
+    .activites-section {
       display: flex;
       flex-direction: column;
       height: 559px;
     }
 
-    .activites-marseille h2 {
+    .activites-section h2 {
       margin: 30px;
     }
 
@@ -61,13 +61,13 @@
 
 
     @media screen and (max-width:1024px) {
-      .activites-marseille {
+      .activites-section {
         display: flex;
         flex-direction: column;
         height: 390px;
       }
 
-      .activites-marseille h2 {
+      .activites-section h2 {
         margin: 30px;
       }
 
@@ -121,7 +121,7 @@
   ---------------------------------------------------------------------*/
     @media (max-width: 767.98px) {
 
-      .activites-marseille {
+      .activites-section {
         height: 965.02px;
       }
 
