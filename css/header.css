@@ -91,7 +91,6 @@ header nav ul li:hover {
 
   header {
     border-bottom: 1px solid #DEEBFF;
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -108,7 +107,6 @@ header nav ul li:hover {
 
   header nav ul {
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
     margin-left: -45px;
   }
