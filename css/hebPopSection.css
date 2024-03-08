@@ -35,6 +35,10 @@
     height: 620px;
   }
 
+  .hebergements h2 {
+    margin-bottom: 30px;
+  }
+
   .hebergements-cards {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
@@ -42,20 +46,8 @@
     width: 100%;
   }
 
-  .hebergements-plus {
-    font-size: 18px;
-    margin: 20px 0;
-    border: none;
-    background-color: transparent;
-    font-weight: 700;
-    cursor: pointer;
-  }
 
-  .hebergements h2 {
-    margin-bottom: 30px;
-  }
-
-  .hebergements-cards figure {
+  .card-hebergement figure {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -68,7 +60,7 @@
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
   }
 
-  .hebergements-cards figure figcaption {
+  .card-hebergement figure figcaption {
     padding: 3px;
     margin: 3px;
   }
@@ -78,7 +70,7 @@
     font-size: 14px;
   }
 
-  .hebergements-cards figure img {
+  .card-hebergement figure img {
     max-width: 100%;
     height: 124px;
     object-fit: cover;
@@ -91,6 +83,14 @@
     margin: 0;
   }
 
+  .hebergements-plus {
+    font-size: 18px;
+    margin: 20px 0;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+  }
 
   /************************************************
   *************** POPULARS ************************/
