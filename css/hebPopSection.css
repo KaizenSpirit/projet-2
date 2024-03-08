@@ -47,6 +47,7 @@
     border: none;
     background-color: transparent;
     font-weight: 700;
+    cursor: pointer;
   }
 
   .hebergements h2 {
