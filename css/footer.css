@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 30px;
@@ -6,7 +6,7 @@ footer {
   height: 180px;
 }
 
-footer ul {
+.footer ul {
   background-color: var(--main-bg-color);
   padding-left: 20px;
   list-style: none;
@@ -15,15 +15,15 @@ footer ul {
   margin: 0;
 }
 
-footer ul li {
+.footer ul li {
   margin-top: 10px;
 }
 
-footer ul li a {
+.footer ul li a {
   cursor: pointer;
 }
 
-footer ul li h4 {
+.footer ul li h4 {
   font-size: 18px;
   margin: 10px 0 0;
 }
@@ -35,7 +35,7 @@ footer ul li h4 {
   ---------------------------------------------------------------------*/
 
 @media (max-width: 767.98px) {
-  footer {
+  .footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
