@@ -68,6 +68,10 @@
     cursor: pointer;
   }
 
+  .sort-subtitles {
+    font-size: 18px;
+  }
+
   .categories {
     display: flex;
     margin-bottom: 30px;

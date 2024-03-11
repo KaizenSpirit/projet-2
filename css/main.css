@@ -35,12 +35,12 @@ a {
 
 h1,
 h2 {
-  font-size: 1.375em;
+  font-size: 22px;
   margin: 0;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 h1,
@@ -51,18 +51,15 @@ h3 {
 }
 
 .complement_infos_text {
-  font-size: 1em;
+  font-size: 16px;
   margin: 0px;
 }
 
 .prices-by-night {
-  font-size: 0.875em;
+  font-size: 14px;
 }
 
-.sort-subtitles {
-  font-size: 1.125em;
-  font-weight: 400;
-}
+
 
 
 
